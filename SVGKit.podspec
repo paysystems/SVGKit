@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = 'SVGKit'
-  s.version     = '3.1.1'
+  s.version     = '3.1.1-bip'
   s.license     = 'MIT'
   s.osx.deployment_target = '11.0'
   s.ios.deployment_target = '11.0'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                  'Eric Man'        => 'meric.au@gmail.com',
                  'Matt Rajca'      => 'matt.rajca@me.com',
                  'Moritz Pfeiffer' => 'moritz.pfeiffer@alp-phone.ch' }
-  s.source   = { :git => 'https://github.com/SVGKit/SVGKit.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/paysystems/SVGKit.git', :tag => s.version.to_s }
   s.source_files = 'Source/*.{h,m}', 'Source/**/*.{h,m}'
   s.resource_bundles = {'SVGKit.PrivacyInfo' => ['SVGKit/Source/Resources/PrivacyInfo.xcprivacy']}
   s.exclude_files = 'Source/include/*.h'
